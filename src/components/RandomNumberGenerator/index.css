@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container{
+    background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 8rem;
+
+}
+.Random-number-container{
+    height: 40vh;
+    width: 20vw;
+    background-color: white;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+font-size: 11px;
+box-shadow:5px 10px 8px  gray;
+}
+h1{
+    font-weight: bold;
+    color: blue;
+}
+.description{
+    color: #333333;
+    font-weight: bold;
+    
+}
+
+button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 12px;
+     background-color: blue;
+     border-width: 0;
+     color: white;
+        
+
+}
